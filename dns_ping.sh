@@ -14,32 +14,32 @@ then
 ping 199.9.14.201
 fi
 
-if ip = "C"
+if ip = "C" 
 then 
 ping 192.33.4.12
 fi
 
-if ip = "D"
+if ip = "D" 
 then
 ping 199.7.91.13
 fi
 
-if ip = "E"
+if ip = "E" 
 then 
 ping 192.203.230.10
 fi
 
-if ip = "F"
+if ip = "F" 
 then 
 ping 192.5.5.241
 fi
 
-if ip = "G"
+if  ip = "G" 
 then 
 ping 192.112.36.4
 fi
 
-if ip = "H"
+if ip = "H" 
 then
 ping 198.97.190.53
 fi
@@ -49,22 +49,22 @@ then
 ping 192.36.148.17
 fi
 
-if ip = "J"
+if ip = "J" 
 then 
 ping 192.58.123.30
 fi
 
-if ip = "K"
+if ip = "K" 
 then 
 ping 193.0.14.129
 fi 
 
-if ip = "L"
+if ip = "L" 
 then
 ping 199.7.83.42
 fi
 
-if ip = "M"
+if ip = "M" 
 then
 ping 202.12.27.33
 fi
