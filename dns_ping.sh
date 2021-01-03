@@ -44,6 +44,6 @@ elif $p="M"
 then
 ping 202.12.27.33
 else
-
-while $p!="A","B","C","D","E","F","G","H","I","J","K","L","M"
 echo "Veuillez réessayer"
+fi
+
