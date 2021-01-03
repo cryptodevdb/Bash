@@ -7,41 +7,41 @@ read -p "IP de DNS racine à ping : " p
 if [ $p="A" ]
 then 
     ping 192.41.0.4
-elif [ $p="B" ]  
-then
+else 
+if [ $p="B" ]  then
     ping 199.9.14.201
-elif [ $p="C" ]  
-then
+else
+if [ $p="C" ] then
     ping 192.33.4.12
-elif [ $p="D" ] 
-then 
+else
+if [ $p="D" ] then 
     ping 199.7.91.13
-elif [ $p="E" ]  
-then 
+else
+if [ $p="E" ]  then 
     ping 192.203.230.10
-elif [ $p="F" ] 
-then
+else
+if [ $p="F" ] then
     ping 192.5.5.241
-elif  [ $p="G" ]
-then
+else
+if  [ $p="G" then
     ping 192.112.36.4
-elif [ $p="H" ]
-then
+else
+if [ $p="H" ] th
     ping 198.97.190.53
-elif [ $p="I" ]
-then
+else
+if [ $p="I" ] then
     ping 192.36.148.17
-elif [ $p="J" ] 
-then
+else
+if [ $p="J" ] then
     ping 192.58.123.30
-elif [ $p="K" ] 
-then
+else
+if [ $p="K" ] then
     ping 193.0.14.129
-elif [ $p="L" ] 
-then
+else
+if [ $p="L" ] then
     ping 199.7.83.42
-elif [ $p="M" ] 
-then
+else 
+if [ $p="M" ] then
     ping 202.12.27.33
 else
 echo "Veuillez réessayer"
