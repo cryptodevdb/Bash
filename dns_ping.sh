@@ -30,4 +30,5 @@ elif [ $p="L" ] then
     ping 199.7.83.42
 elif [ $p="M" ] then
     ping 202.12.27.33
+fi
 
