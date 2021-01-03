@@ -8,6 +8,7 @@ if [ $p="A" ]
 then 
     ping 192.41.0.4
 elif [ $p="B" ]  
+then
     ping 199.9.14.201
 elif [ $p="C" ]  
 then
