@@ -5,43 +5,30 @@ I=192.36.148.17 -> Autonomica \n J=192.58.128.30 -> Verisign \n K=193.0.14.123 -
 read -p "IP de DNS racine à ping : " p
 
 if $p="A"
-then 
 ping 192.41.0.4
-elif $p="B" 
-then 
+elif $p="B"  
 ping 199.9.14.201
-elif $p="C" 
-then 
+elif $p="C"  
 ping 192.33.4.12
 elif $p="D" 
-then
 ping 199.7.91.13
-elif $p="E" 
-then 
+elif $p="E"  
 ping 192.203.230.10
 elif $p="F" 
-then 
 ping 192.5.5.241
 elif  $p="G" 
-then 
 ping 192.112.36.4
 elif $p="H" 
-then
 ping 198.97.190.53
 elif $p="I"
-then 
 ping 192.36.148.17
 elif $p="J" 
-then 
 ping 192.58.123.30
-elif $p="K" 
-then 
+elif $p="K"  
 ping 193.0.14.129
 elif $p="L" 
-then
 ping 199.7.83.42
 elif $p="M" 
-then
 ping 202.12.27.33
 else
 echo "Veuillez réessayer"
